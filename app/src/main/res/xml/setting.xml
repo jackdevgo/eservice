@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_basic">
+        <EditTextPreference
+            android:key="prefname"
+            android:summary="@string/pref_name_summary"
+            android:title="@string/pref_name" />
+        <ListPreference
+            android:defaultValue="@string/pref_sex_default"
+            android:dialogTitle="@string/pref_sex_summary"
+            android:entries="@array/pref_sex_list"
+            android:entryValues="@array/pref_sex_list"
+            android:key="prefsex"
+            android:summary="@string/pref_sex_summary"
+            android:title="@string/pref_sex" />
+        <DropDownPreference
+            android:defaultValue="@string/pref_sex_default"
+            android:dialogTitle="@string/pref_sex_summary"
+            android:entries="@array/pref_sex_list"
+            android:entryValues="@array/pref_sex_list"
+            android:key="prefsex2"
+            android:summary="@string/pref_sex_summary"
+            android:title="@string/pref_sex" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_advance">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="prefdisclosure"
+            android:summary="@string/pref_disclosure_summary"
+            android:title="@string/pref_disclosure" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+                android:key="prefhobbybaseball"
+            android:title="@string/pref_hobby_baseball" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefhobbymusic"
+            android:title="@string/pref_hobby_music" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_hobby_swimming"
+            android:title="@string/pref_hobby_swimming" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/pref_hobby_value_default_list"
+            android:dialogTitle="@string/pref_hobby_summary"
+            android:entries="@array/pref_hobby_list"
+            android:entryValues="@array/pref_hobby_list"
+            android:key="prefhobby"
+            android:summary="@string/pref_hobby_summary"
+            android:title="@string/pref_hobby" />
+        <Preference
+            android:summary="@string/pref_goto_my_web_page_summary"
+            android:title="@string/pref_goto_my_web_page">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.mobile01.com" />
+        </Preference>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">eService</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="account">account</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+    <string name="login_fail">login fail</string>
+    <string name="info">information</string>
+    <string name="login_success">login</string>
+    <string name="login_settings">login settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_login">not login</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="serial_tracking">Serial tracking</string>
+    <string name="socket">Socket connect</string>
+    <string name="firebase">Firebase</string>
+    <string name="pref_basic">Basic</string>
+    <string name="pref_name">Name</string>
+    <string name="pref_sex">Sex</string>
+    <string name="pref_name_summary">Input your name</string>
+    <string name="pref_sex_summary">Input your sex</string>
+    <string-array name="pref_sex_list">
+        <item>@string/pref_sex_man</item>
+        <item>@string/pref_sex_woman</item>
+    </string-array>
+    <string name="pref_sex_man">man</string>
+    <string name="pref_sex_woman">woman</string>
+    <string name="pref_sex_default">man</string>
+    <string name="pref_hobby">Hobby</string>
+    <string-array name="pref_hobby_list">
+        <item>@string/pref_hobby_baseball</item>
+        <item>@string/pref_hobby_music</item>
+        <item>@string/pref_hobby_swimming</item>
+    </string-array>
+    <string-array name="pref_hobby_value_default_list">
+        <item>@string/pref_hobby_music</item>
+    </string-array>
+    <string name="pref_hobby_summary">Input your hobby</string>
+    <string name="pref_hobby_baseball">baseball</string>
+    <string name="pref_hobby_music">music</string>
+    <string name="pref_hobby_swimming">swimming</string>
+    <string name="pref_ringtone">Ringtone</string>
+    <string name="pref_ringtone_summary">Input your ringtonr</string>
+    <string name="pref_disclosure">Disclosure</string>
+    <string name="pref_disclosure_summary">Disclosure or not</string>
+    <string name="pref_goto_my_web_page">Go to my web</string>
+    <string name="pref_goto_my_web_page_summary">Browse my web page</string>
+    <string name="pref_advance">Advance</string>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--  X 軸 20→600時間 1000 毫秒 -->
+    <translate
+        android:duration="1000"
+        android:fromXDelta="100%"
+        android:toXDelta="0" />
+    <!--  從 透明 到 不透明 時間 1000 毫秒 -->
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set>
